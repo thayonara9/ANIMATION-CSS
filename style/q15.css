@@ -30,14 +30,14 @@
 
     }
     25%{
-        transform: translate(1000px, 408px);
+        transform: translate(700px, 260px);
     }
 
     50%{
-        transform: translate(1910px, -90px);
+        transform: translate(1200px, -120px);
     }
     75%{
-        transform: translate(850px, -408px);
+        transform: translate(600px, -268px);
     }
     
     }
