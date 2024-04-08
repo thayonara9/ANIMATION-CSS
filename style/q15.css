@@ -40,8 +40,6 @@
         transform: translate(600px, -255px);
     }
 }
-
-    
     .sair{
         display: flex;
         flex-direction: column;
