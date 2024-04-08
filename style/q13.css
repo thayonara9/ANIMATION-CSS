@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    overflow: hidden;
+}
+.ref{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    justify-content: center;
+    background-color: rgb(248, 189, 223);
+}
+.quadrado1{
+    animation: upanddown  4s linear  2s infinite;
+    margin-right: 2vh;
+    width: 200px;
+    height: 200px;
+    border: solid;
+    background-color: rgb(243, 167, 237);
+}
+
+.quadrado2{
+    width: 200px;
+    height: 200px;
+    border: solid;
+    background-color: rgb(243, 167, 237);
+    animation: upanddown 4s linear 4s infinite;
+}
+.quadrado3{
+    width: 200px;
+    height: 200px;
+    border: solid;
+    background-color: rgb(243, 167, 237);
+    animation: upanddown 4s linear 6s infinite;
+    margin-left: 2vh;
+}
+@keyframes upanddown{
+    25%{
+        transform: translateY(-120px);
+    }
+    50%{
+        transform:  translateY(0px);
+    }
+    75%{
+        transform: translateY(120px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+.sair{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    width: 22vh;
+    height: 30vh;
+    top: 73vh;
+    z-index: 2;
+    position: relative;
+}
+.moanasair{
+    width: 15vh;
+    height: 20vh;
+    bottom: 10%;
+    position: relative;
+
+}
+.seta-voltar{
+    width: 7vh;
+    height: 7vh;
+    background-image:url(../assets/seta.png);
+    background-size: 95% 99%;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    border: solid  1px rgb(255, 132, 239);
+    background-color: rgb(255, 146, 231);
+    position: relative;
+    cursor: pointer;
+    animation: brilho 3s linear infinite;
+}
+.seta-voltar:hover{
+    animation: none;
+    box-shadow: 0px 0px 18px 5px rgb(255, 119, 214);
+}
+@keyframes brilho{
+    0%, 100%{
+        
+    }
+    25%, 50%{
+        box-shadow: 0px 0px 18px 5px rgb(255, 119, 214);
+    }
+
+}
+a{
+    bottom: 5vh;
+    left: 3.4vh;
+    position: relative;
+}

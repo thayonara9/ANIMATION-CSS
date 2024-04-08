@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(243, 237, 235);
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    background-image: url(../assets/79-797773_moana-wallpaper-61-baby-moana-ocean-gif.jpg);
+    background-size: 118%;
+    overflow: hidden;
+}
+.ref{
+    width: 201vh;
+    height: 99vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    flex-direction: column;
+}
+.menu{
+    position: relative;
+    width: 115vh;
+    height: 90vh;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+}
+button{
+    background-image: url(../assets/conha6.png);
+    background-size: cover;
+    width: 16vh;
+    height: 15vh;
+    background-color: transparent;
+    margin: 4vh;
+    outline: 0;
+    border: 0;
+    color: rgb(253, 248, 248);
+}
+.titulo{
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    color: rgb(252, 191, 233);
+    font-size: 6vh;
+    margin-left: 10%;
+    vertical-align: top;
+    position: relative;
+}
+
+.atv{
+    width: 20vh;
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+a{
+    position: absolute;
+    text-decoration: none;
+    color: rgb(252, 173, 173);
+    width: 4%;
+    height: 4%;
+    text-align: center;
+    -webkit-text-stroke: 0.6px black;
+    margin-bottom: 2%;
+}

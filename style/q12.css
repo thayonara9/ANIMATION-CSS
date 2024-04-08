@@ -1,0 +1,140 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    overflow: hidden;
+    background-image: url(../assets/ʚ\ ٬\ ˖˙\ ˓\ moana\ wallpaper.jpg);
+    background-size: 100% 98%;
+}
+.ref{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    justify-content: center;
+}
+.formulario{
+    width: 50vh;
+    height: 65vh;
+    border: solid white 1px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    animation: cir 2s linear;
+        
+}
+input{
+    width: 35vh;
+    height: 5vh;
+    background: transparent;
+    outline: 0;
+    margin-bottom: 12%;
+    border: solid white 1px;
+    border-radius: 8px;
+    font-size: 2vh;
+
+}
+
+.entrar{
+    position: relative;
+    border-radius: 8px;
+    width: 14vh;
+    height: 5vh;
+    font-size: 2vh;
+    background: transparent;
+    border: solid white 1px;
+    color: white;
+    text-shadow: 0px 1px 0px black;
+}
+.entrar:hover{
+    background-color: rgb(194, 194, 194)
+}
+.cadastrar{
+    width: 32vh;
+    height: 4vh;
+    top: 7%;
+    position: relative;
+    border-radius: 8px;
+    font-size: 2vh;
+    background: transparent;
+    border: 0;
+    color: white;
+}
+
+.login{
+    bottom: 5vh;
+    position: relative;
+    font-size: 4vh;
+    color: white;
+    width: 10vh;
+
+}
+@keyframes cair{
+    0%{
+        transform: translateY(-800px)
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+
+.sair{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    width: 22vh;
+    height: 30vh;
+    top: 73vh;
+    z-index: 2;
+    position: relative;
+}
+.moanasair{
+    width: 15vh;
+    height: 20vh;
+    bottom: 10%;
+    position: relative;
+
+}
+.seta-voltar{
+    width: 7vh;
+    height: 7vh;
+    background-image:url(../assets/seta.png);
+    background-size: 95% 99%;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    border: solid  1px rgb(35, 193, 255);
+    background-color: rgb(104, 187, 255);
+    position: relative;
+    cursor: pointer;
+    animation: brilho 3s linear infinite;
+}
+.seta-voltar:hover{
+    animation: none;
+    box-shadow: 0px 0px 18px 5px rgb(43, 213, 255);
+}
+@keyframes brilho{
+    0%, 100%{
+        
+    }
+    25%, 50%{
+        box-shadow: 0px 0px 18px 5px rgb(43, 213, 255);
+    }
+}
+a{
+    bottom: 5vh;
+    left: 3.4vh;
+    position: relative;
+}
+label{
+    bottom: 3vh;
+    font-size: 3vh;
+    color: white;
+    position: relative;
+    right: 14vh;
+}
