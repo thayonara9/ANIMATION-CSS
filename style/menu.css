@@ -25,7 +25,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 10%;
+    margin-left: 7%;
 }
 button{
     background-image: url(../assets/conha6.png);
@@ -64,5 +64,6 @@ a{
     height: 4%;
     text-align: center;
     -webkit-text-stroke: 0.6px black;
-    margin-bottom: 4%;
+    margin-bottom: 6vh;
+    margin-right: 0.5vh;
 }
