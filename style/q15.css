@@ -22,9 +22,8 @@
     border-radius: 50%;
     position: relative;
     background-color: transparent;
-    animation: quicar 5s linear ; 
+    animation: quicar 15s linear ; 
 }
-
 @keyframes quicar {
     0%{
 
