@@ -25,7 +25,6 @@ body{
     justify-content: center;
     align-items: center;
     animation: cair 2s linear;
-        
 }
 input{
     width: 35vh;
