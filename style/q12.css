@@ -26,6 +26,7 @@ body{
     align-items: center;
     animation: cair 2s linear;
 }
+
 input{
     width: 35vh;
     height: 5vh;
